@@ -6,11 +6,15 @@ Below are the backgrounds for the cases that I find interesting.
 
 The grouping of something into various categories is known as stratification. When two kinds of steam that are at different temperatures come into contact, thermal stratification happens. The warmer, lighter water may float above the colder water because of the difference in temperature between them, which causes the heavier, colder water to sink to the bottom. Summertime thermal stratification is a phenomenon in temperate zone lakes. The warm, buoyant surface water is on top of the cooler, denser bottom water, as seen in the figure below. The *epilimnion* and the *hypolimnion*, which are separated by a plane known as the *thermoline*, are the two layers that are effectively separated vertically as a result of this stratification.
 
-![[images/case studies/spline_heattransfer/temperaturevsdepth.jpg]]
 
 For environmental engineers researching the contamination of such systems, thermal stratification is of major importance. Particularly, mixing between the two levels is significantly reduced by the thermocline. Decomposition of organic debris can therefore cause a serious reduction in oxygen levels in the secluded bottom waters.
 
 The temperature-depth curve's inflection point can be used to determine the thermocline's position - that is, the point at which $d^2T/dx^2=0$. Additionally, it is the point where the first derivative's or gradient's absolute value is at its highest. In this case study, the thermocline depth for Platte Lake and the gradient's magnitude will be calculated using cubic splines.
+
+
+
+
+
 
 
 ## Greenhouse gases and rainwater
