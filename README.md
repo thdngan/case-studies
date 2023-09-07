@@ -2,7 +2,7 @@
 
 Below are the backgrounds for the cases that I find interesting.
 
-## Estimating Heat Transfer of a lake
+## 1. Estimating Heat Transfer of a lake
 
 The grouping of something into various categories is known as stratification. When two kinds of steam that are at different temperatures come into contact, thermal stratification happens. The warmer, lighter water may float above the colder water because of the difference in temperature between them, which causes the heavier, colder water to sink to the bottom. Summertime thermal stratification is a phenomenon in temperate zone lakes. The warm, buoyant surface water is on top of the cooler, denser bottom water, as seen in the figure below. The *epilimnion* and the *hypolimnion*, which are separated by a plane known as the *thermoline*, are the two layers that are effectively separated vertically as a result of this stratification.
 
@@ -12,12 +12,10 @@ For environmental engineers researching the contamination of such systems, therm
 The temperature-depth curve's inflection point can be used to determine the thermocline's position - that is, the point at which $d^2T/dx^2=0$. Additionally, it is the point where the first derivative's or gradient's absolute value is at its highest. In this case study, the thermocline depth for Platte Lake and the gradient's magnitude will be calculated using cubic splines.
 
 
+<br></br>
 
 
-
-
-
-## Greenhouse gases and rainwater
+## 2. Greenhouse gases and rainwater
 
 Several greenhouse gases have shown an increase in atmospheric concentration during the past 50 years, as is widely known. Let's examine the information on carbon dioxide partial pressure ($CO_2$) that was acquired at Mauna Loa, Hawaii, from 1958 to 2003. A quadratic polynomial may be used to fit the data trend neatly,
 $$p_{CO_2} = 0.011825(t - 1980.5)^2+1.356975(t-1980.5) + 339$$
